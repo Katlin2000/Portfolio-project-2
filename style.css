@@ -134,6 +134,20 @@ img {
   font-size: 14px;
 }
 
+footer {
+  text-align: center;
+}
+
+footer .email {
+  color: black;
+}
+
+i {
+  font-size: 40px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
