@@ -162,9 +162,10 @@ footer .contact-box p {
 
 .email-link:hover {
   color: var(--branding-color);
+  text-decoration: none;
 }
 
-.social-links {
+.social-links a {
   margin: 0 20px;
   padding: 10px 14px;
   border-radius: 50%;
@@ -197,5 +198,8 @@ footer .contact-box p {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+  .email-link {
+    margin-top: 50px;
   }
 }
